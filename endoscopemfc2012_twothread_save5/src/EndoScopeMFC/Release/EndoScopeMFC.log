@@ -1,0 +1,138 @@
+﻿生成启动时间为 2020/11/17 17:56:01。
+     1>项目“E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\src\EndoScopeMFC\EndoScopeMFC.vcxproj”在节点 2 上(Rebuild 个目标)。
+       项目文件包含 ToolsVersion="15.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include\wes7\um /I..\..\include /I..\..\include\opencv /I..\..\include\opencv2 /I..\..\include\directshow /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Release\EndoScopeMFC.pch" /FAcs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt pch.cpp
+         pch.cpp
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include\wes7\um /I..\..\include /I..\..\include\opencv /I..\..\include\opencv2 /I..\..\include\directshow /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Release\EndoScopeMFC.pch" /FAcs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CEDSGrabberCB.cpp CSetPSW.cpp DataType.cpp EDSCapture.cpp EndoScopeMFC.cpp EndoScopeMFCDlg.cpp frameQueue.cpp LightComIO.cpp Login.cpp MWCCGraphBuilder.cpp packQueue.cpp PicQueue.cpp PLC.cpp ProcessCard.cpp VideoComIO.cpp yuvQueue.cpp
+         CEDSGrabberCB.cpp
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         CSetPSW.cpp
+         DataType.cpp
+         EDSCapture.cpp
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         EndoScopeMFC.cpp
+     1>e:\work_wm\hxijy_code\endoscopemfc2012_menu_changepara_youhua_savepic_usb_1114_twothread_svepic_save5\include\directshow\d3d9types.h(1390): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         EndoScopeMFCDlg.cpp
+     1>e:\work_wm\hxijy_code\endoscopemfc2012_menu_changepara_youhua_savepic_usb_1114_twothread_svepic_save5\include\directshow\d3d9types.h(1390): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>EndoScopeMFCDlg.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
+     1>EndoScopeMFCDlg.cpp(140): warning C4018: “<”: 有符号/无符号不匹配
+     1>EndoScopeMFCDlg.cpp(709): warning C4244: “=”: 从“double”转换到“int64”，可能丢失数据
+     1>EndoScopeMFCDlg.cpp(965): warning C4927: 转换非法；隐式应用了多个用户定义的转换
+                 调用构造函数“std::basic_string<_Elem,_Traits,_Alloc>::basic_string(const _Elem *)”时
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 D:\Program Files\Microsoft Visual Studio 11.0\VC\include\xstring(789) : 参见“std::basic_string<_Elem,_Traits,_Alloc>::basic_string”的声明
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>EndoScopeMFCDlg.cpp(2698): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2704): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2710): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2716): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2722): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2728): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2734): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2882): warning C4018: “<”: 有符号/无符号不匹配
+     1>EndoScopeMFCDlg.cpp(2977): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>EndoScopeMFCDlg.cpp(2978): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         frameQueue.cpp
+     1>frameQueue.cpp(1): warning C4627: “#include "stdafx.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>frameQueue.cpp(6): warning C4627: “#include <Windows.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>frameQueue.cpp(8): warning C4627: “#include <pthread.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>frameQueue.cpp(10): warning C4627: “#include "frameQueue.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+         LightComIO.cpp
+     1>LightComIO.cpp(242): warning C4018: “<”: 有符号/无符号不匹配
+         Login.cpp
+         MWCCGraphBuilder.cpp
+     1>e:\work_wm\hxijy_code\endoscopemfc2012_menu_changepara_youhua_savepic_usb_1114_twothread_svepic_save5\include\directshow\d3d9types.h(1390): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>MWCCGraphBuilder.cpp(165): warning C4018: “<”: 有符号/无符号不匹配
+     1>MWCCGraphBuilder.cpp(180): warning C4018: “<”: 有符号/无符号不匹配
+     1>MWCCGraphBuilder.cpp(215): warning C4018: “<”: 有符号/无符号不匹配
+         packQueue.cpp
+     1>packQueue.cpp(1): warning C4627: “#include "stdafx.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>packQueue.cpp(6): warning C4627: “#include "packQueue.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+         PicQueue.cpp
+     1>PicQueue.cpp(1): warning C4627: “#include "stdafx.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>PicQueue.cpp(6): warning C4627: “#include <Windows.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>PicQueue.cpp(8): warning C4627: “#include <pthread.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>PicQueue.cpp(10): warning C4627: “#include "PicQueue.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+         PLC.cpp
+         ProcessCard.cpp
+     1>ProcessCard.cpp(154): warning C4101: “e”: 未引用的局部变量
+     1>ProcessCard.cpp(158): warning C4101: “e”: 未引用的局部变量
+     1>ProcessCard.cpp(161): warning C4101: “e”: 未引用的局部变量
+         VideoComIO.cpp
+     1>VideoComIO.cpp(180): warning C4101: “e”: 未引用的局部变量
+     1>VideoComIO.cpp(184): warning C4101: “e”: 未引用的局部变量
+     1>VideoComIO.cpp(187): warning C4101: “e”: 未引用的局部变量
+     1>VideoComIO.cpp(269): warning C4018: “<”: 有符号/无符号不匹配
+         yuvQueue.cpp
+     1>yuvQueue.cpp(1): warning C4627: “#include "stdafx.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>yuvQueue.cpp(6): warning C4627: “#include <Windows.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>yuvQueue.cpp(8): warning C4627: “#include <pthread.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+     1>yuvQueue.cpp(10): warning C4627: “#include "yuvQueue.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“pch.h”或重新生成预编译头
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\EndoScopeMFC.res" EndoScopeMFC.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\EndoScopeMFC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib /LIBPATH:..\..\lib\weslib\um /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\..\bin\EndoScopeMFC.pdb" /MAP:"..\..\bin\EndoScopeMFC.map" /MAPINFO:EXPORTS /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\EndoScopeMFC.lib" /MACHINE:X86 /SAFESEH Release\EndoScopeMFC.res
+         Release\CEDSGrabberCB.obj
+         Release\CSetPSW.obj
+         Release\DataType.obj
+         Release\EDSCapture.obj
+         Release\EndoScopeMFC.obj
+         Release\EndoScopeMFCDlg.obj
+         Release\frameQueue.obj
+         Release\LightComIO.obj
+         Release\Login.obj
+         Release\MWCCGraphBuilder.obj
+         Release\packQueue.obj
+         Release\pch.obj
+         Release\PicQueue.obj
+         Release\PLC.obj
+         Release\ProcessCard.obj
+         Release\VideoComIO.obj
+         Release\yuvQueue.obj
+         正在生成代码
+         已完成代码的生成
+         EndoScopeMFC.vcxproj -> E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\src\EndoScopeMFC\..\..\bin\EndoScopeMFC.exe
+     1>已完成生成项目“E:\work_wm\HXIJY_code\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic_save5\src\EndoScopeMFC\EndoScopeMFC.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.25
